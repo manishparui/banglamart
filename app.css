@@ -1,0 +1,35 @@
+
+::-webkit-scrollbar {
+    width: 0.2rem;
+    height: 0.2rem;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2.5px #eeeeee; 
+    border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #222831; 
+    border-radius: 1rem;
+}
+
+.den-category-card-holder {
+    width: max-content;
+}
+.den-category-card {
+    position: relative;
+    
+}
+.den-category-thumbnail {
+    width: 150px;
+    height: 150px;
+}
+.den-category-title {
+    position: absolute;
+    margin-top: -35px;
+    width: 150px;
+    min-height: 40px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2rem;
+}
