@@ -12,8 +12,8 @@
 <body>
 	<main id="main">
 
-		<!--category slider-->
-		<div class="overflow-auto py-3">
+		<!--category card-->
+		<div class="overflow-auto py-3 den-full-width">
 			<div class="den-category-card-holder">
 				<div v-for="category in productCategories" class="d-inline-block mx-2 den-category-card">
 					<a class="text-decoration-none text-dark" v-bind:href="'/category/' + category.slug">
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		</div>
-		<!--end category slider-->
+		<!--end category card-->
 		
 	</main>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>

@@ -12,6 +12,12 @@
     border-radius: 1rem;
 }
 
+.den-full-width {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
 .den-category-card-holder {
     width: max-content;
 }
